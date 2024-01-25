@@ -84,7 +84,7 @@ const uint8_t kUSBd0InterfaceDescriptor[]=
     USBD_CUSTOM_CLASS0_IF0_CLASS,           // bInterfaceClass
     USBD_CUSTOM_CLASS0_IF0_SUBCLASS,        // bInterfaceSubClass
     USBD_CUSTOM_CLASS0_IF0_PROTOCOL,        // bInterfaceProtocol
-    0x00,                                   // iInterface
+    0x02,                                   // iInterface
                                             // Index of string descriptor describing this interface
     ////TODO: fix this 0x04 ?
 
